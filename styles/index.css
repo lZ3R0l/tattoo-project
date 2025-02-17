@@ -1,0 +1,208 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #1B1212;
+}
+
+header {
+    background-color: #0e2408;
+    padding: 1.5rem 3rem;
+}
+
+.logo{
+    color: #ECFFDC;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: 35%;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.booknow-btn {
+    background-color: #2DCA4B;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.booknow-btn:hover{
+    background-color: #008000;
+    
+}
+
+.ourproject-btn {
+    background-color: transparent;
+    color: 	#ECFFDC;
+    padding: 0.5rem 1rem;
+    border: 1px solid 	#ECFFDC;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.ourproject-btn:hover{
+    background-color: black;
+}
+
+/*Hero Section CSS*/
+.main{
+    background-image: linear-gradient(to top, #1B1212 0%, #2F3B17 100%);
+}
+.main__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100vh;
+    
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+
+.main__content h2 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 4rem;
+    color: #F9F6EE;
+    font-weight: 100;
+
+}
+
+.main__content p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #F9F6EE;
+}
+
+.main__btn{
+    font-size: 1rem;
+    background-color: #2DCA4B;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    margin-top: 2rem;
+    cursor: pointer;    
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    color: black;
+    text-decoration: none;
+}
+
+.main__btn::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #008000;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover{
+    color: #fff;
+}
+
+.main__btn:hover:after{
+    width: 100%;
+}
+
+.main__img--container{
+    text-align: center;
+}
+
+#main__img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Mobile Responsive*/
+@media screen and (max-width:768px){
+    .main__container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+    .main__content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .main__content h1{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .main__content h2{
+        font-size: 3rem;
+    }
+    .main__content p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .main__content h1{
+        font-size: 2rem;
+        margin-top: 3rem;   
+}
+    .main__content h2{
+        font-size: 2rem;
+}
+    .main__content p{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+}
+    .main__btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+}
