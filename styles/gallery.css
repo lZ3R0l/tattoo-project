@@ -2,15 +2,11 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 1100px;
+    padding-left: 125px;
+    padding-right: 125px;
     justify-content: center;
-}
-
-.img__div {
-    justify-content: center;
-
 }
 
 img {
-    margin: 10px;
+    margin: 10px;   
 }
