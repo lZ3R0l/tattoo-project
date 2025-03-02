@@ -1,0 +1,16 @@
+.content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    justify-content: center;
+}
+
+.img__div {
+    justify-content: center;
+
+}
+
+img {
+    margin: 10px;
+}
