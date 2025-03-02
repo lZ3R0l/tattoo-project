@@ -10,3 +10,38 @@
 img {
     margin: 10px;   
 }
+
+h2 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 65px;
+line-height: 79px;
+
+color: #2DCA4B;
+
+
+}
+
+h3 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 125px;
+    padding-right: 125px;
+    justify-content: center;
+    align-items: center;
+}
