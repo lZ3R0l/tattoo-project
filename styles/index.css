@@ -5,17 +5,13 @@ body{
     background: #1B1212;
 }
 
-header {
-    background-color: #0e2408;
-    padding: 1.5rem 3rem;
-}
-
 .logo{
     color: #ECFFDC;
 }
 
 .navbar{
-    height: 80px;
+    background-color: #0e2408;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +97,7 @@ header {
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 100vh;
-    
+    height: 90vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -115,7 +110,6 @@ header {
     font-size: 4rem;
     color: #F9F6EE;
     font-weight: 100;
-
 }
 
 .main__content p{
@@ -123,6 +117,7 @@ header {
     font-size: 1.3rem;
     font-weight: 500;
     color: #F9F6EE;
+    margin-top: -5%;
 }
 
 .main__btn{
@@ -132,7 +127,7 @@ header {
     border: none;
     border-radius: 4px;
     color: black;
-    margin-top: 2rem;
+    margin-top: 3rem;
     cursor: pointer;    
     position: relative;
     transition: all 0.35s;
