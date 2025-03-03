@@ -1,0 +1,138 @@
+body{
+    background-color: #1b1212;
+    margin: 0;
+}
+
+header{
+    background-color: #0e2408;
+    padding: 24px 48px;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    color: #2dca4b;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'jacques-francois-shadow', serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: 35%;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #2dca4b;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.booknow-btn {
+    background-color: #2dca4b;
+    color: #000000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.booknow-btn:hover{
+    background-color: #008000;
+    
+}
+
+.ourproject-btn {
+    background-color: transparent;
+    color: 	#ecffdc;
+    padding: 8px 16px;
+    border: 1px solid 	#ecffdc;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.ourproject-btn:hover{
+    background-color: #000000;
+}
+
+main {
+    margin-top: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000;
+    justify-items: center;
+    background: linear-gradient(to top, #1B1212 0%, #2F3B17 100%);
+}
+
+.txt-green {
+    color: #2dca4b;
+    margin: 0;
+}
+
+.txt-white {
+    color: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+}
+
+.top-box {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "montserrat", sans-serif;
+    justify-self: center;
+}
+
+.center-box {
+    padding: 0 95px;
+    padding-top: 65px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "poppins", sans-serif;
+    line-height: 35px;
+}
+
+.center-box2 {
+    font-weight: 600;
+}
+
+.bottom-box {
+    padding-top: 100px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+}
