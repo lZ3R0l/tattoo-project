@@ -72,6 +72,11 @@ body{
     
 }
 
+.navbar__links:hover{
+    color: #2DCA4B;
+    transition: all 0.3s ease;
+}
+
 .ourproject-btn {
     background-color: transparent;
     color: 	#ECFFDC;
@@ -116,7 +121,7 @@ body{
     margin-top: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
-    color: #F9F6EE;
+    color: 	#E2DFD2;
     margin-top: -5%;
 }
 
