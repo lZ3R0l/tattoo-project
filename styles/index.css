@@ -5,19 +5,32 @@ body{
     background: #1B1212;
 }
 
-header {
-    background-color: #0e2408;
-    padding: 1.5rem 3rem;
-}
-
+/*Navigation bar styles*/
 .logo{
     color: #ECFFDC;
 }
 
-.navbar {
+.navbar{
+    background-color: #0e2408;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
 .nav-links {
@@ -47,7 +60,7 @@ header {
 .booknow-btn {
     background-color: #2DCA4B;
     color: black;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border: none;
     border-radius: 3px;
     font-weight: 600;
@@ -56,13 +69,17 @@ header {
 
 .booknow-btn:hover{
     background-color: #008000;
-    
+}
+
+.navbar__links:hover{
+    color: #2DCA4B;
+    transition: all 0.3s ease;
 }
 
 .ourproject-btn {
     background-color: transparent;
     color: 	#ECFFDC;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border: 1px solid 	#ECFFDC;
     border-radius: 3px;
     font-weight: 500;
@@ -84,8 +101,7 @@ header {
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 100vh;
-    
+    height: 90vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -98,14 +114,14 @@ header {
     font-size: 4rem;
     color: #F9F6EE;
     font-weight: 100;
-
 }
 
 .main__content p{
     margin-top: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
-    color: #F9F6EE;
+    color: 	#E2DFD2;
+    margin-top: -5%;
 }
 
 .main__btn{
@@ -115,7 +131,7 @@ header {
     border: none;
     border-radius: 4px;
     color: black;
-    margin-top: 2rem;
+    margin-top: 3rem;
     cursor: pointer;    
     position: relative;
     transition: all 0.35s;
