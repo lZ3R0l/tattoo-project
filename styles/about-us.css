@@ -1,28 +1,36 @@
 body{
+    box-sizing: border-box;
     background-color: #1b1212;
     margin: 0;
+    padding: 0;
 }
 
-header{
-    background-color: #0e2408;
-    padding: 24px 48px;
-    position: fixed;
-    width: 95%;
-    top: 0;
-    z-index: 1000;
-}
-
+/*Navigation bar styles*/
 .logo{
-    color: #2dca4b;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'jacques-francois-shadow', serif;
+    color: #ECFFDC;
 }
 
 .navbar {
+    background-color: #0e2408;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
 .nav-links {
@@ -32,7 +40,7 @@ header{
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 1rem;
 }
 
 .nav-links a {
@@ -43,20 +51,14 @@ header{
     text-decoration: none;
 }
 
-.nav-links a:hover {
-    color: #2dca4b;
-    text-decoration: underline;
-}
-
-.buttons {
+.auth-buttons {
     display: flex;
     align-items: center;
 }
 
-
 .booknow-btn {
     background-color: #2dca4b;
-    color: #000000;
+    color: black;
     padding: 8px 16px;
     border: none;
     border-radius: 3px;
@@ -66,7 +68,11 @@ header{
 
 .booknow-btn:hover{
     background-color: #008000;
-    
+}
+
+.nav-links a:hover {
+    color: #2dca4b;
+    transition: all 0.3s ease;
 }
 
 .ourproject-btn {
@@ -84,8 +90,9 @@ header{
     background-color: #000000;
 }
 
+/*About Us section*/
 main {
-    margin-top: 140px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
