@@ -108,13 +108,37 @@ h1 {
     font-size: 65px;
     font-weight: 700;
     font-family: 'roboto', sans-serif;
+    z-index: 1;
+}
+
+.top-box-img {
+    display: flex;
+    padding-top: 10px;
+    width: 1050px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-box-img::before {
+    content: "";
+    position: absolute;
+    width: 1050px;
+    height: 400px;
+    background-image: url(../images/Gallery2.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: 1;
 }
 
 .top-box {
     font-size: 23px;
     font-weight: 700;
     font-family: "montserrat", sans-serif;
-    justify-self: center;
+    padding-bottom: 50px;
+    z-index: 1;
 }
 
 .center-box {
@@ -135,4 +159,18 @@ h1 {
     font-size: 23px;
     font-weight: 600;
     font-family: "roboto", sans-serif;
+    justify-self: center;
+}
+
+.managers {
+    display: flex;
+    padding-top: 60px;
+}
+
+.name {
+    justify-self: center;
+}
+
+.manager {
+    margin: 0 10px;
 }
