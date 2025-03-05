@@ -2,11 +2,19 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    padding-left: 125px;
-    padding-right: 125px;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+.img__div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 img {
     margin: 10px;   
 }
