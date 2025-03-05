@@ -5,6 +5,7 @@ body{
     background: #1B1212;
 }
 
+/*Navigation bar styles*/
 .logo{
     color: #ECFFDC;
 }
@@ -31,7 +32,6 @@ body{
     margin: 0 auto;
     padding: 0 50px;
 }
-
 
 .nav-links {
     display: flex;
@@ -60,7 +60,7 @@ body{
 .booknow-btn {
     background-color: #2DCA4B;
     color: black;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border: none;
     border-radius: 3px;
     font-weight: 600;
@@ -69,7 +69,6 @@ body{
 
 .booknow-btn:hover{
     background-color: #008000;
-    
 }
 
 .navbar__links:hover{
@@ -80,7 +79,7 @@ body{
 .ourproject-btn {
     background-color: transparent;
     color: 	#ECFFDC;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border: 1px solid 	#ECFFDC;
     border-radius: 3px;
     font-weight: 500;
